@@ -10,10 +10,6 @@ namespace StacksAndQueues
     public class Stack
     {
         private Node top;
-        //public Stack()
-        //{
-        //    this .top = null;
-        //}
 
         CustomLinkedList linkedList = new CustomLinkedList();
         public void Push(int data)
